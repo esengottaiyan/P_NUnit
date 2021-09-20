@@ -16,6 +16,7 @@ namespace P_NUnit.Helper
         IWebDriver webDriver;
         #endregion
 
+        #region "Constructor"
         public Drivers()
         {
             //Chrome Browser
@@ -33,6 +34,7 @@ namespace P_NUnit.Helper
             webDriver = new ChromeDriver(ChromeOptions);
             webDriver.Manage().Window.Maximize();
         }
+        #endregion
 
         #region "Default Methods"
         /// <summary>
